@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Loader">
+        <attr name="foreColor" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="CircularLoader">
+        <attr name="value" format="integer" />
+        <attr name="baseColor" format="color|reference" />
+        <attr name="circleColor" format="color|reference" />
+        <attr name="showText" format="boolean" />
+        <attr name="textColor" format="color|reference" />
+        <attr name="textSize" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="AlarmClock">
+        <attr name="lineColor" format="color|reference" />
+        <attr name="fontColor" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="TimeProgress">
+        <attr name="hour" format="integer" />
+        <attr name="minute" format="integer" />
+        <attr name="baseLineColor" format="color|reference" />
+        <attr name="clockColor" format="color|reference" />
+        <attr name="txtColor" format="color|reference" />
+        <attr name="borderColor" format="color|reference" />
+        <attr name="fontSize" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="buttonBarStyle" format="reference" />
+        <attr name="buttonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+</resources>
